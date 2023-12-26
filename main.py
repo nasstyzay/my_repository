@@ -27,3 +27,4 @@ for new_text in answer:
     new_txt.write(name_file + "\n" + str(count_line) + "\n" + str('\n'.join(dict_2[new_text[0]])) + "\n")
 new_txt.close()
 
+
